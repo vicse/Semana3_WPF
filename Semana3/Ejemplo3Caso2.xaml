@@ -1,0 +1,14 @@
+﻿<Window x:Class="Semana3.Ejemplo3Caso2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana3"
+        mc:Ignorable="d"
+        Title="Ejemplo3Caso2" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="LISTA DE EMPLEADOS&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="29"/>
+        <DataGrid x:Name="dgEmpleados"  HorizontalAlignment="Left" Height="365" Margin="10,44,0,0" VerticalAlignment="Top" Width="772"/>
+
+    </Grid>
+</Window>
